@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+    <!-- Bootstrap CSS -->
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet"  href="css.main.css">
+    <title>TuristeandoSV</title>
+   
+  </head>
+  <body >
+    <!---ENCABEZADO--->
+
+    <header class="container-fluid bg-black d-flex justify-content-center">
+        <p class="text-light mb-0 p-2">Suscribete para recibir nuestras ofertas de viajes.</p>
+    </header>
+
+  
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">  
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5 fw-bold">TuristeandoSV</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destinos.html">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              
+            </ul>
+             
+              
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="email" placeholder="Correo" aria-label="Buscar">
+              <button class="btn btn-primary-outline-success" type="button">Suscribete</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+   <!---SLIDER DE IMAGENES--->
+   <!--======================-->
+   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./img/sanAndres.jpg" class="d-block w-100 h-85" alt="slide1">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/cstaytunco.jpg" class="d-block w-100 h-85" alt="slide2">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/el-pital.jpg" class="d-block w-100 h-85" alt="slide5">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!---DESTINOS--->
+  <!---<section class=" container fluid " id="destinos">
+    <div class="row w-75 mx-auto my-5 servicio-fila" id="destinos">
+      <h1 class="mb-5 fs-2">Destinos <span class="text-primary">Sugeridos</span></h1>  
+
+       <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+           <img src="./img/lagoCoatpq.jpg" alt="desarrollo" width="180" height="160">
+           <div>
+               <h3 class="text-info mt-4 px-4 pb-1">Lago de Coatepeque</h3>
+               <a href="#" class="stretched-link"></a>
+              
+               <p class="px-4">18 kms al Sur de la ciudad de Santa Ana, Desvio El Congo.</p>
+           </div>
+
+       </div>
+   
+       <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+         <img src="./img/alba-jpg.jpeg" alt="desarrollo" width="180" height="160">
+         <div>
+             <h3 class="text-info mt-4 px-4 pb-1">Laberinto de Albania</h3>
+             <a href="#" class="stretched-link"></a>
+             <p class="px-4">Apaneca, Departamento de Ahuachapan. Ruta de Las Flores</p>
+         </div>
+
+       </div>
+
+       <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+         <img src="./img/dnj2.jpg" alt="desarrollo" width="180" height="160">
+         <div>
+             <h3 class="text-info mt-4 px-4 pb-1">Cascadas de Don Juan</h3>
+             <a href="#" class="stretched-link"></a>
+             <p class="px-4">Jujutla, Ahuachapan, Ruta de Las Flores.</p>
+         </div>
+
+       </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+       <img src="./img/mirador-de-cristal-jpg.jpg" alt="desarrollo" width="180" height="160">
+       <div>
+           <h3 class="text-info mt-4 px-4 pb-1">Mirador de Cristal</h3>
+           <a href="#" class="stretched-link"></a>
+           <p class="px-4">frente a desvio de la laguna de Alegria, Calle Izquierda, Alegría, Usulutan</p>
+       </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+       <img src="./img/suchi.jpg" alt="desarrollo" width="180" height="160">
+       <div>
+           <h3 class="text-info mt-4 px-4 pb-1">Suchitoto</h3>
+           <a href="#" class="stretched-link"></a>
+           <p class="px-4">Suchitoto, Cuscatlan, esta ubicado a 47 km de San Salvador.</p>
+       </div>
+
+     </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+     <img src="./img/bckground.jpg" alt="desarrollo" width="180" height="160">
+     <div>
+         <h3 class="text-info mt-4 px-4 pb-1">Volcan de San Salvador</h3>
+         <a href="#" class="stretched-link"></a>
+         <p class="px-4">San Salvador, ubicado a 7 kms de el centro de la capital de San Salvador</p>
+     </div>
+    </div>
+    
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+       <img src="./img/sanAndres.jpg" alt="desarrollo" width="180" height="160">
+       <div>
+           <h3 class="text-info mt-4 px-4 pb-1">Ruinas de San Andres</h3>
+           <a href="#" class="stretched-link"></a>
+           <p class="px-4">Se encuentra en el Valle de Zapotitán, a solo cinco kilómetros de Joya de Cerén, en el departamento de La Libertad.</p>
+       </div>
+      </div>
+
+       <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+         <img src="./img/cstaytunco.jpg" alt="desarrollo" width="180" height="160">
+         <div>
+             <h3 class="text-info mt-4 px-4 pb-1">Costa del Sol, Playa El Tunco</h3>
+             <a href="#" class="stretched-link"></a>
+             <p class="px-4">Departamento de La Libertad, municipio Tamanique a 7,2 km de El Malecon (Puerto de La Libertad)</p>
+         </div>
+
+       </div>
+    </div>
+  </section>
+
+   
+   <!---EQUIPO-->
+
+
+   <section>
+    <!--<div class="w-75 m-auto text-center" id="equipo">
+      <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary"> grandes resultados</span></h1>
+      <p class="fs-4">Siempre encontramos la mejor manera para que tus viajes sean totalmente placenteros y llenos de diversion.</p>
+    </div>
+    <div class="mt-5 text-center">
+      <img class="img-fluid" src="./img/equipo.jpg" width="500px" alt="equipo">
+    </div>--->
+    
+
+    <div id="local" class="border-top border-6">
+      <div class="mapa"></div>
+      <div class="wrapper">
+        <h2>San Salvador, El Salvador</h2>
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+        <p class="fs-5 text-body">Desde nuestra sede podemos brindarte los mejores destinos para que viajes, 
+          te brindamos informacion sobre todo lo que necesitas, desde tu traslado hasta el lugar de destino, estadia,
+           restaurantes y demas detalles que haran de tu viaje algo espectacular</p>
+        <section class="d-flex" id="numeros-local">
+          <div>
+            <p class="text-primary fs-5">365</p>
+            <p>Dias de Sol</p>
+          </div>
+
+          <div>
+            <p class="text-primary fs-5">100%</p>
+            <p>Aprobado</p>
+          </div>
+
+          <div>
+            <p class="text-primary f-5">30 C</p>
+            <p>Temperatura</p>
+          </div>
+
+        </section>
+     </div>
+    </div>
+   </section>
+
+   <!---FORMULARIO-BG-->
+   <!--======================-->
+   <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+    <!--<div id="bg-contacto">
+      <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+      </svg>
+
+    </div>
+
+     <!---FORMULARIO-->
+   <!--======================-->
+
+   <div class="container"id="contenedor-formulario">
+      <!--<div class="titulo-formulario" class="text-center mb-4">
+        <div><img src="./img/catedral-log.jpeg" alt="contacto" class="img-fluid">
+        </div>
+        <h2>Contactos</h2>
+        <p class="fs-5">Estamos aqui para hacer realidad tus mas soñadas aventuras</p>
+      </div>
+      <form action="">
+        <div class="mb-3">
+          <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+        </div>
+
+        <div class="mb-3">
+          <input type="text" class="form-control" id="nombre" placeholder="Carolina Menjivar" required>
+        </div>
+
+        <div class="mb-3">
+          <input type="telefono" class="form-control" id="tel" placeholder="000-0000-0000" required>
+        </div>
+        <div class="mb-3">
+         
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje aqui">
+
+          </textarea>
+        </div>
+        <div class="mb-3">
+          <button type="button" class="btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+
+        </div>
+        
+      </form>
+  </div>--->
+   </section>
+
+   <!--PIE DE PAGINA-->
+   <!--======================-->
+   <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+    <p class="fs-5 px-3 pt-3">TuristeandoSv. &copy; Todos los Derechos Reservados 2023</p>
+    <div id="iconos">
+      <a href="https://www.facebook.com/nathaliemenjivar"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/carolina-menjivar-46a725177"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.instagram.com/p/CnMrSh-NFOy/?igshid=Yzg5MTU1MDY="><i class="bi bi-instagram"></i></a>
+    </div>
+   </footer>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+    <script src="main.js"></script>
+
+  
+  </body>
+</html>
